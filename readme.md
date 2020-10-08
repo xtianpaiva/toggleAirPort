@@ -22,12 +22,11 @@ Thanks to all folks in [https://gist.github.com/albertbori/1798d88a93175b9da00b]
 ## Uninstall
 
 1. `sudo rm /Library/Scripts/toggleAirport.sh`
-2. `launchctl unload /Library/LaunchAgents`
-3. `com.mine.toggleairport.plist`
-4. `sudo rm  /Library/LaunchAgents/com.mine.toggleairport.plist`
-5. `rm /var/tmp/prev_eth_on`
-6. `rm /var/tmp/prev_air_on`
-7. `rm /var/tmp/prev_toggle_airport_run`
+2. `launchctl unload /Library/LaunchAgents/com.mine.toggleairport.plist`
+3. `sudo rm /Library/LaunchAgents/com.mine.toggleairport.plist`
+4. `rm /var/tmp/prev_eth_on`
+5. `rm /var/tmp/prev_air_on`
+6. `rm /var/tmp/prev_toggle_airport_run`
 
 ## Misc
 
